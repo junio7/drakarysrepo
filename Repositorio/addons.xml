@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addons>
+<addon id="repository.drakarysrepo" name="[COLOR darkred]Drakarys[/COLOR] [COLOR gold]Repo[/COLOR]" version="1.0" provider-name="Jun">
+    <extension point="xbmc.addon.repository" name="Drakarysrepo">
+        <info>https://raw.githubusercontent.com/junio7/drakarysrepo/master/Repositorio/addons.xml</info>
+        <checksum>https://raw.githubusercontent.com/junio7/drakarysrepo/master/Repositorio/addons.xml.md5</checksum>
+        <datadir zip="true">https://raw.githubusercontent.com/junio7/drakarysrepo/master/Repositorio/</datadir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>Repositorio para el wizard Daenerys</summary>
+        <description></description>
+        <disclaimer></disclaimer>
+        <platform>all</platform>
+    </extension>
+</addon>
+</addons>
