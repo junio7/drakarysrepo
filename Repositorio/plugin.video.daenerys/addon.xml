@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addons>
 <addon id="plugin.video.daenerys"
        name="[B][COLOR darkred]Daenerys[/COLOR][/B]"
        version="0.0.2"
@@ -15,14 +14,14 @@
     <import addon="script.module.youtube.dl" optional="true"/>
     <import addon="plugin.video.youtube" optional="true" />
     <import addon="script.module.urlresolver" optional="true"/>
-    <import addon="script.module.simplejson" />
+    <import addon="script.module.simplejson" />    
      <import addon="script.module.livestreamer" optional="true"/>
      <import addon="script.module.pyamf" optional="true"/>
   </requires>
   <extension point="xbmc.python.pluginsource" library="default.py">
     <provides>video</provides>
   </extension>
-
+  
   <extension point="xbmc.addon.repository" name="Drakarys Repo">
         <info>https://raw.githubusercontent.com/junio7/drakarysrepo/master/Repositorio/addons.xml</info>
         <checksum>https://raw.githubusercontent.com/junio7/drakarysrepo/master/Repositorio/addons.xml.md5</checksum>
@@ -39,18 +38,3 @@
 	  </assets>
   </extension>
 </addon>
-
-<addon id="repository.drakarysrepo" name="[COLOR darkred]Drakarys[/COLOR] [COLOR gold]Repo[/COLOR]" version="1.0" provider-name="Jun">
-    <extension point="xbmc.addon.repository" name="Drakarysrepo">
-        <info>https://raw.githubusercontent.com/junio7/drakarysrepo/master/Repositorio/addons.xml</info>
-        <checksum>https://raw.githubusercontent.com/junio7/drakarysrepo/master/Repositorio/addons.xml.md5</checksum>
-        <datadir zip="true">https://raw.githubusercontent.com/junio7/drakarysrepo/master/Repositorio/</datadir>
-    </extension>
-    <extension point="xbmc.addon.metadata">
-        <summary>Repositorio para el wizard Daenerys</summary>
-        <description></description>
-        <disclaimer></disclaimer>
-        <platform>all</platform>
-    </extension>
-</addon>
-</addons>
